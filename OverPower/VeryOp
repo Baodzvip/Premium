@@ -17,6 +17,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "airplay" }),
     AutoFarm = Window:AddTab({ Title = "Farm", Icon = "box" }),
     AutoSkills = Window:AddTab({ Title = "Skills", Icon = "swords"}),
+    Player = Window:AddTab({ Title = "Player", Icon "component"}),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
@@ -267,8 +268,8 @@ local Toggle = Tabs.AutoFarm:AddToggle("Farm", {Title = "AutoFarm", Default = fa
 Window:SelectTab(2)
 
 Fluent:Notify({
-    Title = "Crab",
-    Content = "The script has been loaded.",
+    Title = "Crab Hub",
+    Content = "The script has been loaded!",
     Duration = 7
 })
 
