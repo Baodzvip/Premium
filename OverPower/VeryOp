@@ -251,12 +251,12 @@ SaveManager:BuildConfigSection(Tabs.Settings)
 
 Window:SelectTab(1)
 
-Tabs.Farm:AddParagraph({
+Tabs.AutoFarm:AddParagraph({
         Title = "BestFarm",
         Content = "Very op but test:>"
     })
 
-local Toggle = Tabs.Farm:AddToggle("AutoFarm", {Title = "AutoFarm", Default = false })
+local Toggle = Tabs.AutoFarm:AddToggle("Farm", {Title = "AutoFarm", Default = false })
 
     Toggle:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
