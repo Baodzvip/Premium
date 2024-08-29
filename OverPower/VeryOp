@@ -23,7 +23,7 @@ do
     Fluent:Notify({
         Title = "Notification",
         Content = "baodzvip vcl",
-        SubContent = "Yoooooooo", -- Optional
+        SubContent = "Yoooooooo12345", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
 
@@ -38,15 +38,15 @@ do
 
     Tabs.Main:AddButton({
         Title = "Button",
-        Description = "Very important button",
+        Description = "Tester",
         Callback = function()
             Window:Dialog({
-                Title = "Title",
+                Title = "Test123",
                 Content = "Test",
                 Buttons = {
                     {
                         Title = "Confirm",
-                        Callback = function(game.Players.LocalPlayer:Kick("Test"))
+                        Callback = function()
                             print("Test12345")
                         end
                     },
