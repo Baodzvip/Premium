@@ -1,8 +1,8 @@
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/Fluent.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/InterfaceManager.lua"))()
 
-local Window = CrabHub:CreateWindow({
+local Window = Fluent:CreateWindow({
     Title = "Crab Hub ",
     SubTitle = "by baodzvip",
     TabWidth = 150,
