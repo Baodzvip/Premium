@@ -13,7 +13,10 @@ local Tabs = {
     Main = Window:Tab({
         Title = "Main",
         Icon = ""
-    }),
+    })
+    Main = Winsow:Tab({
+            Title = "AutoFarm"
+            Icon = ""
     Settings = Window:Tab({
         Title = "Settings",
         Icon = "settings"
