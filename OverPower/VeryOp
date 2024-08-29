@@ -258,7 +258,7 @@ Tabs.AutoFarm:AddParagraph({
 
 local Toggle = Tabs.AutoFarm:AddToggle("Farm", {Title = "AutoFarm", Default = false })
 
-    Toggle:OnChanged(function("loadstring(game:HttpGet('https://raw.githubusercontent.com/Baodzvip/edit/main/Premium/Verytrash/Kaitunhub'))()")
+    Toggle:OnChanged(function("https://raw.githubusercontent.com/Baodzvip/edit/main/Premium/Verytrash/Kaitunhub")
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
