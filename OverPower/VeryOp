@@ -20,7 +20,7 @@ local Tabs = {
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
-local Options = Crab.Options
+local Options = CrabHub.Options
 
 do
     Crab:Notify({
