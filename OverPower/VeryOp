@@ -1,4 +1,4 @@
-local main = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/Main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/Main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/InterfaceManager.lua"))()
 
@@ -20,10 +20,10 @@ local Tabs = {
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
-local Options = Main.Options
+local Options = Fluent.Options
 
 do
-    Main:Notify({
+    Fluent:Notify({
         Title = "Notification",
         Content = "This is a notification",
         SubContent = "SubContent", -- Optional
