@@ -1,7 +1,7 @@
 local Main = require(game:GetService("ReplicatedStorage"):WaitForChild("Fluent"))
 
 local Window = Main:CreateWindow({
-    Title = "Crab " 1.0.0 Main.Version,
+    Title = "Crab Hub " ,
     SubTitle = "by baodzvip",
     TabWidth = 150,
     Size = UDim2.fromOffset(520, 375),
