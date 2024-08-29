@@ -1,9 +1,9 @@
-local CrabHub = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/InterfaceManager.lua"))()
 
 local Window = CrabHub:CreateWindow({
-    Title = "Crab Hub " ,
+    Title = "Crab Hub ",
     SubTitle = "by baodzvip",
     TabWidth = 150,
     Size = UDim2.fromOffset(520, 375),
