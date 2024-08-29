@@ -200,7 +200,7 @@ do
                 print("Keybind is being held down")
             end
 
-            if Fluent.Unloaded then break end
+            if CrabHub.Unloaded then break end
         end
     end)
 
