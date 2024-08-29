@@ -258,7 +258,7 @@ Tabs.AutoFarm:AddParagraph({
 
 local Toggle = Tabs.AutoFarm:AddToggle("Farm", {Title = "AutoFarm", Default = false })
 
-    Toggle:OnChanged(function("game.Players.LocalPlayer:Kick("Permanently Banned: Exploiter")")
+    Toggle:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
