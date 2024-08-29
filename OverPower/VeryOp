@@ -23,7 +23,7 @@ local Tabs = {
 local Options = Main.Options
 
 do
-    CrabHub:Notify({
+    Main:Notify({
         Title = "Notification",
         Content = "This is a notification",
         SubContent = "SubContent", -- Optional
