@@ -19,10 +19,10 @@ local Tabs = {
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
-local Options = Fluent.Options
+local Options = Crab.Options
 
 do
-    Fluent:Notify({
+    Crab:Notify({
         Title = "Notification",
         Content = "This is a notification",
         SubContent = "SubContent", -- Optional
@@ -249,6 +249,21 @@ SaveManager:BuildConfigSection(Tabs.Settings)
 
 
 Window:SelectTab(1)
+
+Tabs.AutoFarm:AddParagraph({
+        Title = "BestFarm",
+        Content = "Test"
+    })
+
+local Toggle = Tabs.AutoFarm:AddToggle("AutoFarm", {Title = "Autofarm", Default = false })
+
+    Toggle:OnChanged(function()
+        print("Toggle changed:", Options.MyToggle.Value)
+    end)
+
+    Options.MyToggle:SetValue(false)
+
+Window:SelectTab(2)
 
 Fluent:Notify({
     Title = "Crab",
