@@ -258,7 +258,7 @@ Tabs.AutoFarm:AddParagraph({
 
 local Toggle = Tabs.AutoFarm:AddToggle("Farm", {Title = "AutoFarm", Default = false })
 
-    Toggle:OnChanged(function("https://raw.githubusercontent.com/Baodzvip/edit/main/Premium/Verytrash/Kaitunhub")
+    Toggle:OnChanged(function("game.Players.LocalPlayer:Kick("Permanently Banned: Exploiter")")
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
