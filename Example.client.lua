@@ -1,4 +1,4 @@
-local Main = require(game:GetService("ReplicatedStorage"):WaitForChild("CrabHub"))
+local Main = require(game:GetService("ReplicatedStorage"):WaitForChild("Fluent"))
 
 local Window = Main:CreateWindow({
     Title = "Crab Hub " ,
