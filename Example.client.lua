@@ -3,7 +3,7 @@ local Main = require(game:GetService("ReplicatedStorage"):WaitForChild("Fluent")
 local Window = Main:CreateWindow({
     Title = "Crab Hub " ,
     SubTitle = "by baodzvip",
-    TabWidth = 150,
+    TabWidth = 160,
     Size = UDim2.fromOffset(520, 375),
     Acrylic = true,
     Theme = "Dark"
@@ -12,21 +12,26 @@ local Window = Main:CreateWindow({
 local Tabs = {
     Main = Window:Tab({
         Title = "Main",
-        Icon = ""
+        Icon = "airplay"
     })
-    Main = Winsow:Tab({
-            Title = "AutoFarm"
-            Icon = ""
+    AutoFarm = Window:Tab({
+            Title = "Farm"
+            Icon = "box"
+    })
+    AutoSkills = Window:Tab({
+            Title = "Skills"
+            Icon = "swords"
+    })
     Settings = Window:Tab({
-        Title = "Settings",
+        Title = "GUIs",
         Icon = "settings"
     })
 }
 
 do
     Tabs.Main:AddParagraph({
-        Title = "Paragraph",
-        Content = "This is a paragraph.\nSecond line!"
+        Title = "Test",
+        Content = "Test0"
     })
 
     Tabs.Main:AddButton({
