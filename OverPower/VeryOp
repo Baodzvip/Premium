@@ -259,7 +259,7 @@ Tabs.AutoFarm:AddParagraph({
 
 local Toggle = Tabs.AutoFarm:AddToggle("Farm", {Title = "AutoFarm", Default = false })
 
-    Toggle:OnChanged(function("game.Players.LocalPlayer:Kick("ĐỊT MẸ CHƯA LÀM XONG BẬT AUTO FARM LÀM LỒN GÌ?")")
+    Toggle:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
     end)
 
