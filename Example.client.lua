@@ -23,7 +23,7 @@ local Tabs = {
             Icon = "swords"
     })
     Settings = Window:Tab({
-        Title = "GUIs",
+        Title = "Settings",
         Icon = "settings"
     })
 }
