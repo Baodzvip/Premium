@@ -15,7 +15,7 @@ local Window = Fluent:CreateWindow({
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "airplay" }),
-    AutoFarm = Window:AddTab({ Title = "Farming", Icon "box" }),
+    Farm = Window:AddTab({ Title = "Farming", Icon "" }),
     AutoSkills = Window:AddTab({ Title = "Skills", Icon "swords" }),
     Settings = Window:AddTab({ Title = "Tab", Icon = "" })
 }
@@ -256,7 +256,7 @@ Tabs.Main:AddParagraph({
         Content = "Test!!"
     })
 
-local Toggle = Tabs.AutoFarm:AddToggle("AutoFarm", {Title = "AutoFarm", Default = false })
+local Toggle = Tabs.Farm:AddToggle("AutoFarm", {Title = "AutoFarm", Default = false })
 
     Toggle:OnChanged(function()
         print("Toggle changed:", Options.MyToggle.Value)
