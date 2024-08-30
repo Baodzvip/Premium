@@ -17,7 +17,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "airplay" }),
     Farm = Window:AddTab({ Title = "Farming", Icon "" }),
     AutoSkills = Window:AddTab({ Title = "Skills", Icon "swords" }),
-    Settings = Window:AddTab({ Title = "Tab", Icon = "" })
+    Settings = Window:AddTab({ Title = "Settings", Icon = "Settings" })
 }
 
 local Options = Fluent.Options
