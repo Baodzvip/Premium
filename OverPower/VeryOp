@@ -251,6 +251,11 @@ SaveManager:BuildConfigSection(Tabs.Settings)
 
 Window:SelectTab(1)
 
+Tabs.Main:AddParagraph({
+        Title = "Test",
+        Content = "Test!!"
+    })
+
 local Toggle = Tabs.AutoFarm:AddToggle("AutoFarm", {Title = "AutoFarm", Default = false })
 
     Toggle:OnChanged(function()
@@ -259,13 +264,13 @@ local Toggle = Tabs.AutoFarm:AddToggle("AutoFarm", {Title = "AutoFarm", Default 
 
     Options.MyToggle:SetValue(false)
 
-Window:SelectTab(1)
+Window:SelectTab(2)
 
 
 Fluent:Notify({
     Title = "Crab Hub",
     Content = "The script has been loaded.",
-    Duration = 8
+    Duration = 7
 })
 
 -- You can use the SaveManager:LoadAutoloadConfig() to load a config
