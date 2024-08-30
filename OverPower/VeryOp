@@ -1,6 +1,8 @@
 local Fluent = loadstring(game:HttpGet('https://raw.githubusercontent.com/Baodzvip/Premium/main/Fluent.lua'))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Baodzvip/Premium/main/InterfaceManager.lua"))()
+     print(test1)
+
 local Window = Fluent:CreateWindow({
     Title = "Crab Hub " ,
     SubTitle = "by baodzvip",
