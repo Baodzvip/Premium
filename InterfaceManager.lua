@@ -1,7 +1,7 @@
 local httpService = game:GetService("HttpService")
 
 local InterfaceManager = {} do
-	InterfaceManager.Folder = "Game"
+	InterfaceManager.Folder = "CrabHubSettings"
     InterfaceManager.Settings = {
         Theme = "Dark",
         Acrylic = true,
